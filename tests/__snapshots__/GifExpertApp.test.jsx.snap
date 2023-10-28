@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <GifExpertApp /> should 1`] = `
+<div>
+  <div
+    class="p-16 space-y-4"
+  >
+    <h1
+      class="text-5xl font-bold"
+    >
+      Gif Export App
+    </h1>
+    <form
+      aria-label="form"
+    >
+      <input
+        class="bg-gray-200 px-2 py-1 rounded-md"
+        placeholder="Buscar Gifs"
+        type="text"
+        value=""
+      />
+    </form>
+  </div>
+</div>
+`;
+
+exports[`Test in <GifExpertApp /> should match the snapshot 1`] = `
+<div>
+  <div
+    class="p-16 space-y-4"
+  >
+    <h1
+      class="text-5xl font-bold"
+    >
+      Gif Export App
+    </h1>
+    <form
+      aria-label="form"
+    >
+      <input
+        class="bg-gray-200 px-2 py-1 rounded-md"
+        placeholder="Buscar Gifs"
+        type="text"
+        value=""
+      />
+    </form>
+  </div>
+</div>
+`;

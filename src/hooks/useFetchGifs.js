@@ -4,7 +4,6 @@ import { getGifs } from '../helpers/getGifs';
 export const useFetchGifs = (category) => {
     const [images, setImages] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
-    console.log(isLoading);
 
     useEffect(() => {
         fetchGifs(category).then((gifs) => {
